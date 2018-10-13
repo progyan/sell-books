@@ -1,0 +1,39 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: solid #ffffffff 3px;
+    transition-property: border;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    border: solid #ffffff88 3px;
+}
+
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: #bb0;
+}
+.green {
+    background-color: green;
+}
+.skyblue {
+    background-color: skyblue;
+}
+.blue {
+    background-color: royalblue;
+}
+.purple {
+    background-color: purple;
+}
