@@ -2,4 +2,4 @@
 Coming soon...
 
 News:
-* Added [javascript](github.com/progyan/sell-books/blob/master/javascript.js)
+* Added [javascript](https://github.com/progyan/sell-books/blob/master/javascript.js)
