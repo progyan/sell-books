@@ -13,7 +13,11 @@
 }
 
 .card:hover {
-    border: solid #ffffff88 3px;
+    border: solid #ffffffaa 3px;
+}
+
+.notimportant {
+    color: #f88;
 }
 
 .red {
@@ -23,7 +27,7 @@
     background-color: orange;
 }
 .yellow {
-    background-color: #bb0;
+    background-color: #ffd500;
 }
 .green {
     background-color: green;
