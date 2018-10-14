@@ -14,16 +14,18 @@
         <p>Set header:</p>
         <input type="text" value="Enter your header here.">
         <p>Select color:</p>
-        <div class="red card"></div>
-        <div class="orange card"></div>
-        <div class="yellow card"></div>
-        <div class="green card"></div>
-        <div class="skyblue card"></div>
-        <div class="blue card"></div>
-        <div class="purple card"></div>
+        <div class="red card" id="selected" onclick="border(this)"></div>
+        <div class="orange card" onclick="border(this)"></div>
+        <div class="yellow card" onclick="border(this)"></div>
+        <div class="green card" onclick="border(this)"></div>
+        <div class="skyblue card" onclick="border(this)"></div>
+        <div class="blue card" onclick="border(this)"></div>
+        <div class="purple card" onclick="border(this)"></div>
         <p>Additional text<span class="notimportant">*</span>:</p>
-        <textarea cols="20" rows="3" maxlength="35"></textarea>
-        <p id="totextarea">Maximum length: 35 symbols</p>
-        <script></script>
+        <textarea cols="20" rows="3" maxlength="38" onkeypress="changeTextareaLog(document.getElementById('totextarea'), this)"></textarea>
+        <p id="totextarea">Maximum length: 38 symbols.</p>
+        <script src="javascript.js"></script>
+        <p>Result:</p>
+        <div id="result1"></div>
     </body>
 </html>

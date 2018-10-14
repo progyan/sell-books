@@ -12,8 +12,18 @@
     transition-duration: 0.2s;
 }
 
+#selected {
+    border: solid #ffffff66 3px;
+}
+
 .card:hover {
     border: solid #ffffffaa 3px;
+}
+
+#result1 {
+    background-color: #ffd500;
+    width: 100px;
+    height: 100px;
 }
 
 .notimportant {
