@@ -10,9 +10,8 @@
     </head>
     <body>
         <h1>Buy hand-made albums!</h1>
-        <br>
         <p>Set header:</p>
-        <input type="text" value="Enter your header here.">
+        <input type="text" value="Enter your header here." onkeypress="resultHD(this.innerHTML)">
         <p>Select color:</p>
         <div class="red card" id="selected" onclick="border(this)"></div>
         <div class="orange card" onclick="border(this)"></div>
@@ -26,6 +25,6 @@
         <p id="totextarea">Maximum length: 38 symbols.</p>
         <script src="javascript.js"></script>
         <p>Result:</p>
-        <div id="result1">Header</div>
+        <div id="result1"><span id="header"></span><br><br><span class="texter" id="info"></span></div>
     </body>
 </html>

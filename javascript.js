@@ -5,4 +5,9 @@ function changeTextareaLog(el, textarea){
 function border(el){
     document.getElementById("selected").id = "";
     el.id = "selected";
+    document.getElementById("result1").style.backgroundColor = el.style.backgroundColor;
+}
+
+function resultHD(header){
+    document.getElementById("header").innerHTML = header;
 }
